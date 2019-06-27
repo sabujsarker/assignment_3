@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.bannar {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.top {
+    min-height: 77px;
+    background-color: black;
+}
+
+.top > h1 {
+    float: left;
+    padding: 14px;
+    color: #fed136;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: inherit;
+}
+
+.manu {
+    float: right;
+    margin-top: 15px;
+}
+
+.manu > ul > li {
+    list-style: none;
+    float: left;
+    padding: 11px;
+    margin-right: 10px;
+}
+
+.manu > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;letter-spacing: 2px
+}
+
+.manu > ul > li:hover {
+    color: #fed136;
+    border: 1px solid;
+    border-color: white;
+/*    border-radius: 4px;*/
+    background: #3e3e3d80;
+}
+
+.bannar_section {
+    position: absolute;
+    right: 11%;
+    top: 37%;
+    color: whitesmoke;
+    line-height: 56px;
+    text-align: center;
+}
+
+.bannar_section > h1 {
+    font-size: 51px;	font-size: 46px;
+	font-family: monospace;
+	letter-spacing: 6px;
+
+}
+
+.bannar_section > h2 {
+	font-family: cursive;
+	letter-spacing: 4px;
+}
+
+.bannar_section > button {
+    background: #48443b;
+    border-radius: 9px;
+    font-size: 15px;
+    padding: 12px;
+    border: 2px solid;
+    margin-top: 37px;
+}
+
+.bannar_section > button > a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.bannar_section > button:hover {
+    background-color: #fed136d4;
+}
+
+.service {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    min-height: 405px;
+}
+
+.service > h1 {
+    font-size: 41px;
+    letter-spacing: 7px;
+    color: #524949;font-family: monospace;
+}
+
+.service > p {
+    margin-top: 12px;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.E-Commerce {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+.E-Commerce > img {
+    width: 100px;
+    border-radius: 50%
+}
+
+.E-Commerce > p {
+    font-size: 22px
+}
+
+.E-Commerce > h1 {
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;font-family: monospace;
+}
+
+.Responsive_Design {
+    width: 32%;
+    float: left;
+    text-align: center
+}
+
+.Responsive_Design > img {
+    width: 100px;
+    border-radius: 50%
+}
+
+.Responsive_Design > p {
+    font-size: 22px
+}
+
+.Responsive_Design > h1 {font-family: monospace;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.Web_Security {
+    width: 33%;
+    float: left;
+    text-align: center
+}
+
+.Web_Security > img {
+    width: 100px;
+    border-radius: 50%
+}
+
+.Web_Security > h1 {
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;font-family: monospace;
+}
+
+.Web_Security {
+    font-size: 22px
+}
+
+.team {
+    min-height: 500px;
+    background-color: #f1f1f159;
+    text-align: center;
+    /*    text-transform: uppercase;*/
+}
+
+.team > h1 {
+    text-transform: uppercase;
+    font-size: 41px;
+    letter-spacing: 7px;
+    color: #524949;
+    /* margin-bottom: 45px; */
+    padding: 36px;font-family: monospace;
+}
+
+.ceo {
+    float: left;
+    width: 33.33%;
+    line-height: 28px;
+}
+
+.img1 > img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ceo > img {
+    width: 200px;
+    border-radius: 50%
+}
+
+.img2 > img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img3 > img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.lead_devolapar > img {
+    width: 200px;
+    border-radius: 50%
+}
+
+.Lead_Marketer > img {
+    width: 200px;
+    border-radius: 50%
+}
+
+.Lead_Marketer {
+    float: left;
+    width: 33.33%;
+    line-height: 28px;
+}
+
+.lead_devolapar {
+    float: right;
+    width: 33.33%;
+    line-height: 28px;
+}
+
+.footer {
+    background: black;
+    min-height: 200px;
+    color: white;position: relative;
+}
+
+.lead_devolapar > i {
+    letter-spacing: 10px;
+    font-size: 30px
+}
+
+.fa-facebook-square {
+    color: #3d5a98
+}
+
+.fa-twitter {
+    color: #00adef
+}
+
+.fa-linkedin-square {
+    color: #457e9b
+}
+
+.fa-youtube-play {
+    color: #ff0000
+}
+
+.fa-instagram {
+    color: #fd4418
+}
+
+.ceo > i {
+    letter-spacing: 10px;
+    font-size: 30px
+}
+
+.Lead_Marketer > i {
+    letter-spacing: 10px;
+    font-size: 30px
+}
+.social{float: right;color: #524949;	padding: 30px;}
+.social > i {
+    letter-spacing: 52px;
+    font-size: 30px;	cursor: pointer;
+}
+.social>h1{font-family: monospace;letter-spacing: 3px;text-transform: uppercase;margin-bottom: 23px}
+.contact{	float: left;
+	padding: 26px;
+	line-height: 28px;	width: 31%;}
+
+.contact>h1{font-family: monospace;letter-spacing: 3px;text-transform: uppercase;margin-bottom: 10px;color: #524949;	margin-bottom: 22px;}
+
+.contact>i{	float: left;
+	/* font-weight: bold; */
+	font-size: 23px;
+	margin-right: 10px;
+}.contact>p{font-family: monospace;
+	font-size: 17px;}
+.last{		position: absolute;
+	right: 9%;
+	/* top: 10%; */
+	/* margin-top: 145px; */
+	/* float: right; */
+    bottom: 13%;}
+.last>input{	width: 205px;
+	padding: 5px;
+	border: 1px solid;
+	border-color: aquamarine;
+	border-radius: 49px;
+}
+.last>button{	padding: 7px;
+	width: 99px;
+	border: none;
+	background: #7fff00e3;
+	border-radius: 54px;
+}
+.last>button>a{	text-decoration: none;
+	/* font-size: 11px; */
+	color: white;
+	font-weight: bold;}
+
+.font{padding: 10px}
+
+
+
+
+
+
+
+
+
